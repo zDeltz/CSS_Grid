@@ -1,0 +1,31 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+body{
+    background-color: #008080;
+    font-family: Josefin Sans;
+    color: #800000;
+}
+
+.container{
+    padding: 12px;
+
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(3, 100px);
+    gap: 12px;
+
+    grid-auto-rows: 200px;
+    grid-auto-flow: column;
+    grid-auto-columns: 50px;
+
+    background-color: #008051;
+}
+
+.item{
+    background-color: #5FBFBF;
+}
